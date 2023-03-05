@@ -1,0 +1,9 @@
+.entradaValores input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.resultado {
+    font-weight: bold;
+    font-size: 18px;
+}
