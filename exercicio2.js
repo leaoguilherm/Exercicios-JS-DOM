@@ -5,5 +5,5 @@ function valorDigitado() {
 
     const  soma = primeiroValor + segundoValor + terceiroValor;
 
-    document.querySelector(".resultado").innerHTML = "A soma é " + soma;
+    document.getElementById("resultado").innerHTML = "A soma é " + soma;
 }

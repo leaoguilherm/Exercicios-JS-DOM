@@ -11,41 +11,44 @@
 </head>
 
 <body>
-    <header>
-        <button>
-            <a href="https://guileao-projects-target.netlify.app/">Voltar</a>
-        </button>
+    <div class="conteinerPrincipal">
+        <header class="cabecalho">
+            <button>
+                <a href="https://guileao-projects-target.netlify.app/">Voltar</a>
+            </button>
 
-        <h1>Exercício 1</h1>
-        <p>Crie uma página que contenha:</p>
+            <h1>Exercício 1</h1>
+            <p>Crie uma página que contenha:</p>
 
-        <ul>
-            <li>3 Inputs</li>
-            <li>1 Botão</li>
-            <li>1 Div vazia para guardar um resultado</li>
-        </ul>
+            <ul>
+                <li>3 Inputs</li>
+                <li>1 Botão</li>
+                <li>1 Div vazia para guardar um resultado</li>
+            </ul>
 
-        <p>Faça uma função Javascript que, ao clicar no botão, some os 3 valores dos inputs e mostre o resultado na Div
-            vazia.</p>
-    </header>
-    <hr>
-
-    <div class="entradaValores">
-        <label for="">Primeiro Número</label>
-        <input type="number" name="" id="primeiro-numero">
-
-        <label for="">Segundo Número</label>
-        <input type="number" name="" id="segundo-numero">
-
-        <label for="">Terceiro Número</label>
-        <input type="number" name="" id="terceiro-numero">
-
-        <button onclick="somarValores()" class="">Somar</button>
-
+            <p>Faça uma função Javascript que, ao clicar no botão, some os 3 valores dos inputs e mostre o resultado na
+                Div
+                vazia.</p>
+        </header>
         <hr>
 
-        <div class="resultado"></div>
+        <div class="entradaValores">
+            <label for="">Primeiro Número</label>
+            <input type="number" name="" id="primeiro-numero">
 
+            <label for="">Segundo Número</label>
+            <input type="number" name="" id="segundo-numero">
+
+            <label for="">Terceiro Número</label>
+            <input type="number" name="" id="terceiro-numero">
+
+            <button onclick="somarValores()" class="">Somar</button>
+
+            <hr>
+
+            <div id="resultado"></div>
+
+        </div>
     </div>
 
 

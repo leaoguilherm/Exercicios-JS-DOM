@@ -11,37 +11,40 @@
 </head>
 
 <body>
-    <header>
-        <button>
-            <a href="https://guileao-projects-target.netlify.app/">Voltar</a>
-        </button>
-        
-        <h1>Exercício 2</h1>
-        <p>Crie uma outra página que contenha:</p>
-        <ul>
-            <li>3 Inputs</li>
-            <li>1 Div vazia para guardar um resultado</li>
-            <li>SEM Botão</li>
-        </ul>
+    <div class="conteinerPrincipal">
+        <header class="cabecalho">
+            <button>
+                <a href="https://guileao-projects-target.netlify.app/">Voltar</a>
+            </button>
 
-        <p>Faça uma função Javascript que, sempre ao alterar um dos inputs, some os 3 valores dos inputs e mostre o resultado na Div vazia.</p>
-    </header>
-    
-    <hr>
+            <h1>Exercício 2</h1>
+            <p>Crie uma outra página que contenha:</p>
+            <ul>
+                <li>3 Inputs</li>
+                <li>1 Div vazia para guardar um resultado</li>
+                <li>SEM Botão</li>
+            </ul>
 
-    <div class="entradaValores">
-        <label for="">Primeiro Número</label>
-        <input onchange="valorDigitado()" type="number" name="" id="primeiro-numero">
-
-        <label for="">Segundo Número</label>
-        <input onchange="valorDigitado()" type="number" name="" id="segundo-numero">
-
-        <label for="">Terceiro Número</label>
-        <input onchange="valorDigitado()" type="number" name="" id="terceiro-numero">
+            <p>Faça uma função Javascript que, sempre ao alterar um dos inputs, some os 3 valores dos inputs e mostre o
+                resultado na Div vazia.</p>
+        </header>
 
         <hr>
 
-        <div class="resultado"></div>
+        <div class="entradaValores">
+            <label for="">Primeiro Número</label>
+            <input onkeyup="valorDigitado()" type="number" name="" id="primeiro-numero">
+
+            <label for="">Segundo Número</label>
+            <input onkeyup="valorDigitado()" type="number" name="" id="segundo-numero">
+
+            <label for="">Terceiro Número</label>
+            <input onkeyup="valorDigitado()" type="number" name="" id="terceiro-numero">
+
+            <hr>
+
+            <div id="resultado"></div>
+        </div>
     </div>
 </body>
 

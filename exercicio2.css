@@ -3,7 +3,25 @@
     margin-bottom: 10px;
 }
 
-.resultado {
+#resultado {
     font-weight: bold;
     font-size: 18px;
+}
+
+.cabecalho h1 {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+.conteinerPrincipal {
+    border: solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(194, 194, 194);
+}
+
+body {
+    background-color: rgb(124, 173, 173);
 }

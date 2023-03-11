@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="./exercicio3.js"></script>
+    <link rel="stylesheet" href="./exercicio3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="conteinerPrincipal">
+        <header>
+            <h1>Exercício 3</h1>
+        </header>
+
+        <!-- EXERCICIO IMPRIMIR PARES -->
+        <div class="imprimirPares">
+            <header>
+                <h1>Imprimir Pares</h1>
+                <p>1. Crie uma função chamada imprimePares, que não recebe nenhum parâmetro, e que imprime todos números
+                    pares
+                    entre 1 e 100 no HTML ao clicar em um botão;</p>
+            </header>
+
+            <button onclick="imprimePares()">Imprimir pares</button>
+            <div id="resultadoPares"></div>
+        </div>
+
+
+        <!-- EXERCICIO MÉDIA -->
+        <div class="media">
+            <header>
+                <h1>Calcular média</h1>
+                <p>2. Crie uma função chamada calculaMedia, que pegue 3 notas de inputs, e que imprima no HTML a média
+                    aritmética dos números;</p>
+            </header>
+
+            <div class="entradaValores">
+                <label for="">Primeira nota: </label>
+                <input type="number" id="inputUm" placeholder="Digite o primeiro número">
+
+                <label for="">Segunda nota: </label>
+                <input type="number" id="inputDois" placeholder="Digite o segundo número">
+
+                <label for="">Terceira nota: </label>
+                <input type="number" id="inputTres" placeholder="Digite o terceiro número">
+
+                <button onclick="calculaMedia()" class="btnMedia">Calcular média</button>
+
+                <div id="resultadoMedia"></div>
+            </div>
+        </div>
+
+
+        <!-- CSS EXERCICIO MENOR NÚMERO -->
+        <div class="exercicioMenorNumero">
+            <header>
+                <h1>Menor Número / Maior Número</h1>
+                <p>3 e 4. Crie uma função chamada menorNumero, que leia dois inputs, e que imprime apenas o menor dos
+                    números em uma Div de resultado;</p>
+            </header>
+
+            <div class="entradaValoresMenorNum">
+                <label for="">Digite o primeiro número:</label>
+                <input id="primeiroInputMenorNumero" type="number">
+
+                <label for="">Digite o segundo número:</label>
+                <input id="segundoInputMenorNumero" type="number">
+
+                <button onclick="retornarMenorNumero()">Retornar o menor número</button>
+                <button onclick="retornarMaiorNumero()">Retornar o maior número</button>
+            </div>
+            <div id="retornoMenorMaiorNumero"></div>
+        </div>
+
+        <button>
+            <a href="https://guileao-projects-target.netlify.app/">Voltar</a>
+        </button>
+    </div>
+
+</body>
+
+</html>

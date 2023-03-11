@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(124, 173, 173);
+}
+
+.conteinerPrincipal {
+    border: solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(114, 114, 114);
+    color: rgb(250, 250, 250);
+}
+
+
+/* CSS EXERCICIO IMPRIMIR PARES */
+    .imprimirPares {
+        margin: 0px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 25px 5px 25px 5px;
+        margin-bottom: 10px;
+        background-color: rgb(170, 170, 170);
+        color: black;
+    }
+
+    .imprimirPares header h1 {
+        margin: 0px;
+    }
+
+
+
+    /* CSS EXERCICIO MÉDIA */
+    .media {
+        margin: 0px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 25px 5px 25px 5px;
+        margin-bottom: 10px;
+        background-color: rgb(170, 170, 170);
+        color: black;
+    }
+
+    .entradaValores input {
+        display: flex;
+        margin: 3px 0px 6px 0px;
+    }
+
+    #resultadoMedia {
+        font-weight: bold;
+        padding: 10px;
+        font-size: 18PX;
+    }
+
+
+    /* CSS EXERCICIO MENOR NÚMERO */
+    .exercicioMenorNumero {
+        margin: 0px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 25px 5px 25px 5px;
+        margin-bottom: 10px;
+        background-color: rgb(170, 170, 170);
+        color: black;
+    }
+
+    .entradaValoresMenorNum input {
+        display: flex;
+        margin: 3px 0px 6px 0px;
+    }
+
+    .entradaValoresMenorNum {
+        margin-bottom: 10px;
+    }
+
+    #retornoMenorMaiorNumero {
+        font-weight: bold;
+        padding: 10px;
+        font-size: 18PX;
+    }
+
+
+
+    
